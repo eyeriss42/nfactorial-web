@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body div{
+
+}
+.container{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.container button:nth-child(odd){
+    background-color: orange;
+    height: 30px;
+    width: 50px;
+}
+.container button:nth-child(even){
+    background-color: green;
+    height: 30px;
+    width: 500px;
+}
+
+.container2{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 div{
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2 div:nth-child(odd){
+    flex 1;
+    min-width: 10px;
+    height: 20px;
+    border:solid;
+}
+.container2 div:nth-child(even){
+    flex:5;
+    background-color: orange;
+}
+
